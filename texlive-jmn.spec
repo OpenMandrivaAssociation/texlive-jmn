@@ -1,5 +1,11 @@
+# revision 22719
+# category Package
+# catalog-ctan undef
+# catalog-date undef
+# catalog-license undef
+# catalog-version undef
 Name:		texlive-jmn
-Version:	20111102
+Version:	20111103
 Release:	1
 Summary:	TeXLive jmn package
 Group:		Publishing
@@ -42,6 +48,7 @@ TeXLive jmn package.
 %{_texmfdistdir}/fonts/type1/jmn/hans/hans-sh.pfm
 %{_texmfdistdir}/fonts/type1/jmn/hans/hans.pfb
 %{_texmfdistdir}/fonts/type1/jmn/hans/hans.pfm
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ TeXLive jmn package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
