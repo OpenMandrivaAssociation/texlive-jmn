@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-jmn
-Version:	20111103
-Release:	7
+Version:	20140619
+Release:	1
 Summary:	TeXLive jmn package
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -50,17 +50,3 @@ TeXLive jmn package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111103-2
-+ Revision: 752900
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111103-1
-+ Revision: 718754
-- texlive-jmn
-- texlive-jmn
-- texlive-jmn
-- texlive-jmn
-
