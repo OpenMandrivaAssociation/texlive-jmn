@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-jmn
-Version:	20140619
-Release:	4
+Version:	20171112
+Release:	1
 Summary:	TeXLive jmn package
 Group:		Publishing
 URL:		http://tug.org/texlive
