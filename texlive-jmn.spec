@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-jmn
-Version:	20171112
+Version:	20180303
 Release:	1
 Summary:	TeXLive jmn package
 Group:		Publishing
