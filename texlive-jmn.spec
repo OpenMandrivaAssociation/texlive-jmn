@@ -1,6 +1,6 @@
 Name:		texlive-jmn
 Version:	45751
-Release:	1
+Release:	2
 Summary:	TeXLive jmn package
 Group:		Publishing
 URL:		http://tug.org/texlive
